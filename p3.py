@@ -21,6 +21,7 @@ def roi(img, vertices):
     return masked
 
 
+
 def draw_lanes(img, lines, color=[0, 255, 255], thickness=3):
 
     # if this fails, go with some default line
